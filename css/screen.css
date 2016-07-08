@@ -48,87 +48,87 @@ a, a:before, .button, button, button:before, input[type="button"], input[type="s
 
 .background_dot { position: absolute; opacity: .7; z-index: 2; width: 50px; height: 50px; border-radius: 50%; margin-left: -25px; margin-top: -25px; box-shadow: inset 0 0 15px #333; transition: transform .2s ease; will-change: transform; }
 
-.background_dot:nth-child(1) { transform: scale(0.09); top: 62%; left: 10%; background-color: #46c985; }
+.background_dot:nth-child(1) { top: 70%; left: 89%; background-color: #2b2c31; }
 
-.background_dot:nth-child(2) { transform: scale(0.85); top: 14%; left: 52%; background-color: #5dab9a; }
+.background_dot:nth-child(2) { top: 46%; left: 76%; background-color: #9d0860; }
 
-.background_dot:nth-child(3) { transform: scale(0.77); top: 40%; left: 85%; background-color: #f814b9; }
+.background_dot:nth-child(3) { top: 57%; left: 19%; background-color: #ace633; }
 
-.background_dot:nth-child(4) { transform: scale(0.3); top: 23%; left: 90%; background-color: #f723fa; }
+.background_dot:nth-child(4) { top: 46%; left: 39%; background-color: #dee025; }
 
-.background_dot:nth-child(5) { transform: scale(0.1); top: 86%; left: 67%; background-color: #08774b; }
+.background_dot:nth-child(5) { top: 39%; left: 50%; background-color: #0a9871; }
 
-.background_dot:nth-child(6) { transform: scale(0.62); top: 72%; left: 68%; background-color: #ddda00; }
+.background_dot:nth-child(6) { top: 41%; left: 37%; background-color: #8575a0; }
 
-.background_dot:nth-child(7) { transform: scale(0.75); top: 83%; left: 7%; background-color: #11ee1f; }
+.background_dot:nth-child(7) { top: 45%; left: 91%; background-color: #3998a9; }
 
-.background_dot:nth-child(8) { transform: scale(0.03); top: 12%; left: 82%; background-color: #97a686; }
+.background_dot:nth-child(8) { top: 74%; left: 60%; background-color: #6f5c7f; }
 
-.background_dot:nth-child(9) { transform: scale(0.96); top: 61%; left: 71%; background-color: #07e0d3; }
+.background_dot:nth-child(9) { top: 17%; left: 57%; background-color: #1bec02; }
 
-.background_dot:nth-child(10) { transform: scale(0.77); top: 62%; left: 13%; background-color: #f716d3; }
+.background_dot:nth-child(10) { top: 19%; left: 69%; background-color: #b780da; }
 
-.background_dot:nth-child(11) { transform: scale(0.69); top: 64%; left: 58%; background-color: #1fd35d; }
+.background_dot:nth-child(11) { top: 50%; left: 45%; background-color: #cded35; }
 
-.background_dot:nth-child(12) { transform: scale(0.84); top: 64%; left: 75%; background-color: #79864f; }
+.background_dot:nth-child(12) { top: 29%; left: 58%; background-color: #1e98a9; }
 
-.background_dot:nth-child(13) { transform: scale(0.99); top: 79%; left: 50%; background-color: #ed3c27; }
+.background_dot:nth-child(13) { top: 76%; left: 78%; background-color: #c6dc02; }
 
-.background_dot:nth-child(14) { transform: scale(0.37); top: 83%; left: 81%; background-color: #158380; }
+.background_dot:nth-child(14) { top: 6%; left: 52%; background-color: #e11d6d; }
 
-.background_dot:nth-child(15) { transform: scale(0.21); top: 93%; left: 29%; background-color: #3357c9; }
+.background_dot:nth-child(15) { top: 91%; left: 16%; background-color: #3c98a4; }
 
-.background_dot:nth-child(16) { transform: scale(0.27); top: 77%; left: 15%; background-color: #b5f379; }
+.background_dot:nth-child(16) { top: 83%; left: 26%; background-color: #25b51b; }
 
-.background_dot:nth-child(17) { transform: scale(0.2); top: 22%; left: 53%; background-color: #594062; }
+.background_dot:nth-child(17) { top: 23%; left: 20%; background-color: #a93719; }
 
-.background_dot:nth-child(18) { transform: scale(0.83); top: 43%; left: 81%; background-color: #f89822; }
+.background_dot:nth-child(18) { top: 28%; left: 71%; background-color: #491a6d; }
 
-.background_dot:nth-child(19) { transform: scale(0.92); top: 41%; left: 32%; background-color: #4296de; }
+.background_dot:nth-child(19) { top: 65%; left: 52%; background-color: #dcc195; }
 
-.background_dot:nth-child(20) { transform: scale(0.58); top: 42%; left: 47%; background-color: #84caec; }
+.background_dot:nth-child(20) { top: 69%; left: 33%; background-color: #c20031; }
 
-.background_dot:nth-child(21) { transform: scale(0.76); top: 36%; left: 66%; background-color: #5a445b; }
+.background_dot:nth-child(21) { top: 18%; left: 87%; background-color: #e5f425; }
 
-.background_dot:nth-child(22) { transform: scale(0.74); top: 33%; left: 84%; background-color: #cbe955; }
+.background_dot:nth-child(22) { top: 73%; left: 12%; background-color: #7f0793; }
 
-.background_dot:nth-child(23) { transform: scale(0.29); top: 92%; left: 10%; background-color: #8eaa1c; }
+.background_dot:nth-child(23) { top: 85%; left: 24%; background-color: #4d3972; }
 
-.background_dot:nth-child(24) { transform: scale(0.59); top: 67%; left: 70%; background-color: #d9c3ae; }
+.background_dot:nth-child(24) { top: 12%; left: 15%; background-color: #6c0caf; }
 
-.background_dot:nth-child(25) { transform: scale(0.11); top: 66%; left: 75%; background-color: #05af0c; }
+.background_dot:nth-child(25) { top: 89%; left: 68%; background-color: #e690ef; }
 
-.background_dot:nth-child(26) { transform: scale(0.96); top: 20%; left: 52%; background-color: #89567b; }
+.background_dot:nth-child(26) { top: 13%; left: 53%; background-color: #52e681; }
 
-.background_dot:nth-child(27) { transform: scale(0.99); top: 55%; left: 19%; background-color: #fc4608; }
+.background_dot:nth-child(27) { top: 93%; left: 70%; background-color: #286c49; }
 
-.background_dot:nth-child(28) { transform: scale(0.19); top: 36%; left: 88%; background-color: #f8cd9a; }
+.background_dot:nth-child(28) { top: 76%; left: 12%; background-color: #64adb2; }
 
-.background_dot:nth-child(29) { transform: scale(0.87); top: 47%; left: 18%; background-color: #1750f8; }
+.background_dot:nth-child(29) { top: 12%; left: 38%; background-color: #8ed960; }
 
-.background_dot:nth-child(30) { transform: scale(0.47); top: 61%; left: 19%; background-color: #1c4c29; }
+.background_dot:nth-child(30) { top: 6%; left: 32%; background-color: #bf1206; }
 
-.background_dot:nth-child(31) { transform: scale(0.75); top: 63%; left: 85%; background-color: #b51ca2; }
+.background_dot:nth-child(31) { top: 17%; left: 60%; background-color: #fd5225; }
 
-.background_dot:nth-child(32) { transform: scale(0.8); top: 44%; left: 59%; background-color: #0613ac; }
+.background_dot:nth-child(32) { top: 45%; left: 59%; background-color: #892033; }
 
-.background_dot:nth-child(33) { transform: scale(0.19); top: 27%; left: 51%; background-color: #fae37e; }
+.background_dot:nth-child(33) { top: 60%; left: 8%; background-color: #4f04f7; }
 
-.background_dot:nth-child(34) { transform: scale(0.84); top: 41%; left: 22%; background-color: #9c4ee4; }
+.background_dot:nth-child(34) { top: 44%; left: 69%; background-color: #5e03c4; }
 
-.background_dot:nth-child(35) { transform: scale(0.12); top: 34%; left: 15%; background-color: #2e54d7; }
+.background_dot:nth-child(35) { top: 13%; left: 81%; background-color: #3b4145; }
 
-.background_dot:nth-child(36) { transform: scale(0.88); top: 19%; left: 30%; background-color: #ee2666; }
+.background_dot:nth-child(36) { top: 87%; left: 62%; background-color: #1545ab; }
 
-.background_dot:nth-child(37) { transform: scale(0.73); top: 75%; left: 72%; background-color: #e88681; }
+.background_dot:nth-child(37) { top: 35%; left: 94%; background-color: #c207ca; }
 
-.background_dot:nth-child(38) { transform: scale(0.94); top: 49%; left: 48%; background-color: #4c6664; }
+.background_dot:nth-child(38) { top: 53%; left: 68%; background-color: #3c2f85; }
 
-.background_dot:nth-child(39) { transform: scale(0.32); top: 65%; left: 29%; background-color: #6ce371; }
+.background_dot:nth-child(39) { top: 49%; left: 92%; background-color: #71ccbb; }
 
-.background_dot:nth-child(40) { transform: scale(0.5); top: 7%; left: 55%; background-color: #2269b7; }
+.background_dot:nth-child(40) { top: 52%; left: 19%; background-color: #236eef; }
 
-.background_dot:nth-child(41) { transform: scale(0.04); top: 7%; left: 46%; background-color: #2d862d; }
+.background_dot:nth-child(41) { top: 73%; left: 10%; background-color: #bd9e55; }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
 
