@@ -48,87 +48,87 @@ a, a:before, .button, button, button:before, input[type="button"], input[type="s
 
 .background_dot { position: absolute; opacity: .7; z-index: 2; width: 50px; height: 50px; border-radius: 50%; margin-left: -25px; margin-top: -25px; box-shadow: inset 0 0 15px #333; transition: transform .2s ease; will-change: transform; }
 
-.background_dot:nth-child(1) { top: 83%; left: 10%; background-color: #bbeae2; }
+.background_dot:nth-child(1) { transform: scale(0.09); top: 62%; left: 10%; background-color: #46c985; }
 
-.background_dot:nth-child(2) { top: 20%; left: 49%; background-color: #d465fa; }
+.background_dot:nth-child(2) { transform: scale(0.85); top: 14%; left: 52%; background-color: #5dab9a; }
 
-.background_dot:nth-child(3) { top: 56%; left: 51%; background-color: #631b94; }
+.background_dot:nth-child(3) { transform: scale(0.77); top: 40%; left: 85%; background-color: #f814b9; }
 
-.background_dot:nth-child(4) { top: 72%; left: 84%; background-color: #354c87; }
+.background_dot:nth-child(4) { transform: scale(0.3); top: 23%; left: 90%; background-color: #f723fa; }
 
-.background_dot:nth-child(5) { top: 65%; left: 26%; background-color: #8b7e14; }
+.background_dot:nth-child(5) { transform: scale(0.1); top: 86%; left: 67%; background-color: #08774b; }
 
-.background_dot:nth-child(6) { top: 73%; left: 62%; background-color: #889790; }
+.background_dot:nth-child(6) { transform: scale(0.62); top: 72%; left: 68%; background-color: #ddda00; }
 
-.background_dot:nth-child(7) { top: 93%; left: 15%; background-color: #5d5dad; }
+.background_dot:nth-child(7) { transform: scale(0.75); top: 83%; left: 7%; background-color: #11ee1f; }
 
-.background_dot:nth-child(8) { top: 93%; left: 89%; background-color: #682bd3; }
+.background_dot:nth-child(8) { transform: scale(0.03); top: 12%; left: 82%; background-color: #97a686; }
 
-.background_dot:nth-child(9) { top: 83%; left: 21%; background-color: #2da6d6; }
+.background_dot:nth-child(9) { transform: scale(0.96); top: 61%; left: 71%; background-color: #07e0d3; }
 
-.background_dot:nth-child(10) { top: 79%; left: 17%; background-color: #7a57a3; }
+.background_dot:nth-child(10) { transform: scale(0.77); top: 62%; left: 13%; background-color: #f716d3; }
 
-.background_dot:nth-child(11) { top: 85%; left: 82%; background-color: #b469b4; }
+.background_dot:nth-child(11) { transform: scale(0.69); top: 64%; left: 58%; background-color: #1fd35d; }
 
-.background_dot:nth-child(12) { top: 8%; left: 15%; background-color: #1ac365; }
+.background_dot:nth-child(12) { transform: scale(0.84); top: 64%; left: 75%; background-color: #79864f; }
 
-.background_dot:nth-child(13) { top: 30%; left: 8%; background-color: #3fb317; }
+.background_dot:nth-child(13) { transform: scale(0.99); top: 79%; left: 50%; background-color: #ed3c27; }
 
-.background_dot:nth-child(14) { top: 47%; left: 27%; background-color: #514d71; }
+.background_dot:nth-child(14) { transform: scale(0.37); top: 83%; left: 81%; background-color: #158380; }
 
-.background_dot:nth-child(15) { top: 31%; left: 81%; background-color: #d16016; }
+.background_dot:nth-child(15) { transform: scale(0.21); top: 93%; left: 29%; background-color: #3357c9; }
 
-.background_dot:nth-child(16) { top: 28%; left: 62%; background-color: #4492ab; }
+.background_dot:nth-child(16) { transform: scale(0.27); top: 77%; left: 15%; background-color: #b5f379; }
 
-.background_dot:nth-child(17) { top: 93%; left: 27%; background-color: #c6fbec; }
+.background_dot:nth-child(17) { transform: scale(0.2); top: 22%; left: 53%; background-color: #594062; }
 
-.background_dot:nth-child(18) { top: 95%; left: 40%; background-color: #05cd2f; }
+.background_dot:nth-child(18) { transform: scale(0.83); top: 43%; left: 81%; background-color: #f89822; }
 
-.background_dot:nth-child(19) { top: 64%; left: 50%; background-color: #6ebb74; }
+.background_dot:nth-child(19) { transform: scale(0.92); top: 41%; left: 32%; background-color: #4296de; }
 
-.background_dot:nth-child(20) { top: 88%; left: 20%; background-color: #db6d1d; }
+.background_dot:nth-child(20) { transform: scale(0.58); top: 42%; left: 47%; background-color: #84caec; }
 
-.background_dot:nth-child(21) { top: 64%; left: 95%; background-color: #70c8b3; }
+.background_dot:nth-child(21) { transform: scale(0.76); top: 36%; left: 66%; background-color: #5a445b; }
 
-.background_dot:nth-child(22) { top: 46%; left: 42%; background-color: #94ecca; }
+.background_dot:nth-child(22) { transform: scale(0.74); top: 33%; left: 84%; background-color: #cbe955; }
 
-.background_dot:nth-child(23) { top: 74%; left: 21%; background-color: #b10b28; }
+.background_dot:nth-child(23) { transform: scale(0.29); top: 92%; left: 10%; background-color: #8eaa1c; }
 
-.background_dot:nth-child(24) { top: 9%; left: 88%; background-color: #9e4a85; }
+.background_dot:nth-child(24) { transform: scale(0.59); top: 67%; left: 70%; background-color: #d9c3ae; }
 
-.background_dot:nth-child(25) { top: 81%; left: 14%; background-color: #a482f3; }
+.background_dot:nth-child(25) { transform: scale(0.11); top: 66%; left: 75%; background-color: #05af0c; }
 
-.background_dot:nth-child(26) { top: 15%; left: 87%; background-color: #206cc4; }
+.background_dot:nth-child(26) { transform: scale(0.96); top: 20%; left: 52%; background-color: #89567b; }
 
-.background_dot:nth-child(27) { top: 41%; left: 64%; background-color: #067380; }
+.background_dot:nth-child(27) { transform: scale(0.99); top: 55%; left: 19%; background-color: #fc4608; }
 
-.background_dot:nth-child(28) { top: 80%; left: 34%; background-color: #29bf28; }
+.background_dot:nth-child(28) { transform: scale(0.19); top: 36%; left: 88%; background-color: #f8cd9a; }
 
-.background_dot:nth-child(29) { top: 87%; left: 54%; background-color: #ab670e; }
+.background_dot:nth-child(29) { transform: scale(0.87); top: 47%; left: 18%; background-color: #1750f8; }
 
-.background_dot:nth-child(30) { top: 61%; left: 18%; background-color: #4d5e3b; }
+.background_dot:nth-child(30) { transform: scale(0.47); top: 61%; left: 19%; background-color: #1c4c29; }
 
-.background_dot:nth-child(31) { top: 9%; left: 17%; background-color: #07c72a; }
+.background_dot:nth-child(31) { transform: scale(0.75); top: 63%; left: 85%; background-color: #b51ca2; }
 
-.background_dot:nth-child(32) { top: 81%; left: 86%; background-color: #79ed66; }
+.background_dot:nth-child(32) { transform: scale(0.8); top: 44%; left: 59%; background-color: #0613ac; }
 
-.background_dot:nth-child(33) { top: 75%; left: 74%; background-color: #dbf879; }
+.background_dot:nth-child(33) { transform: scale(0.19); top: 27%; left: 51%; background-color: #fae37e; }
 
-.background_dot:nth-child(34) { top: 47%; left: 28%; background-color: #e4d544; }
+.background_dot:nth-child(34) { transform: scale(0.84); top: 41%; left: 22%; background-color: #9c4ee4; }
 
-.background_dot:nth-child(35) { top: 58%; left: 95%; background-color: #f77b91; }
+.background_dot:nth-child(35) { transform: scale(0.12); top: 34%; left: 15%; background-color: #2e54d7; }
 
-.background_dot:nth-child(36) { top: 84%; left: 82%; background-color: #bac758; }
+.background_dot:nth-child(36) { transform: scale(0.88); top: 19%; left: 30%; background-color: #ee2666; }
 
-.background_dot:nth-child(37) { top: 8%; left: 44%; background-color: #9a5ae4; }
+.background_dot:nth-child(37) { transform: scale(0.73); top: 75%; left: 72%; background-color: #e88681; }
 
-.background_dot:nth-child(38) { top: 55%; left: 57%; background-color: #d60670; }
+.background_dot:nth-child(38) { transform: scale(0.94); top: 49%; left: 48%; background-color: #4c6664; }
 
-.background_dot:nth-child(39) { top: 55%; left: 91%; background-color: #2ec165; }
+.background_dot:nth-child(39) { transform: scale(0.32); top: 65%; left: 29%; background-color: #6ce371; }
 
-.background_dot:nth-child(40) { top: 17%; left: 36%; background-color: #ead440; }
+.background_dot:nth-child(40) { transform: scale(0.5); top: 7%; left: 55%; background-color: #2269b7; }
 
-.background_dot:nth-child(41) { top: 27%; left: 86%; background-color: #22cab8; }
+.background_dot:nth-child(41) { transform: scale(0.04); top: 7%; left: 46%; background-color: #2d862d; }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
 
