@@ -1,0 +1,135 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; vertical-align: baseline; }
+
+body, html { height: 100%; }
+
+img, fieldset, a img { border: none; }
+
+input[type="text"], input[type="email"], input[type="tel"], textarea { -webkit-appearance: none; }
+
+input[type="submit"], button { cursor: pointer; }
+
+input[type="submit"]::-moz-focus-inner, button::-moz-focus-inner { padding: 0; border: 0; }
+
+textarea { overflow: auto; }
+
+input, button { margin: 0; padding: 0; border: 0; }
+
+div, input, textarea, select, button, h1, h2, h3, h4, h5, h6, a, span, a:focus { outline: none; }
+
+ul, ol { list-style-type: none; }
+
+table { border-spacing: 0; border-collapse: collapse; width: 100%; }
+
+html { box-sizing: border-box; }
+
+*, *:before, *:after { box-sizing: inherit; }
+
+@font-face { font-family: "svgfont"; src: url("../fonts/svgfont.eot"); src: url("../fonts/svgfont.eot?#iefix") format("eot"), url("../fonts/svgfont.woff2") format("woff2"), url("../fonts/svgfont.woff") format("woff"), url("../fonts/svgfont.ttf") format("truetype"); font-weight: normal; font-style: normal; }
+
+.icon, [class^="icon-"], [class*=" icon-"] { font-family: "svgfont"; font-style: normal; font-weight: normal; text-rendering: auto; speak: none; line-height: 1; vertical-align: middle; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+
+.icon, [class^="icon-"], [class*=" icon-"] { display: inline-block; }
+
+body { font-family: Arial, sans-serif; font-size: 16px; line-height: 1.25; min-width: 320px; min-height: 320px; }
+
+.clearfix { *zoom: 1; }
+
+.clearfix:before, .clearfix:after { display: table; content: ""; line-height: 0; }
+
+.clearfix:after { clear: both; }
+
+a, a:before, .button, button, button:before, input[type="button"], input[type="submit"] { transition: border-color .1s ease-in, color .1s ease-in, background-color .1s ease-in; }
+
+.hide { display: none !important; }
+
+.background { height: 100%; overflow: hidden; position: relative; perspective: 100vw; }
+
+.background_image { position: absolute; width: 130%; height: 127%; margin-left: -15%; margin-top: -8%; left: 0; top: 0; bottom: 0; background: #fff url(../img/background-image.jpg) no-repeat; transition: transform .2s ease; background-size: cover; will-change: transform; }
+
+.background_dot { position: absolute; opacity: .7; z-index: 2; width: 50px; height: 50px; border-radius: 50%; margin-left: -25px; margin-top: -25px; box-shadow: inset 0 0 15px #333; transition: transform .2s ease; will-change: transform; }
+
+.background_dot:nth-child(1) { top: 83%; left: 10%; background-color: #bbeae2; }
+
+.background_dot:nth-child(2) { top: 20%; left: 49%; background-color: #d465fa; }
+
+.background_dot:nth-child(3) { top: 56%; left: 51%; background-color: #631b94; }
+
+.background_dot:nth-child(4) { top: 72%; left: 84%; background-color: #354c87; }
+
+.background_dot:nth-child(5) { top: 65%; left: 26%; background-color: #8b7e14; }
+
+.background_dot:nth-child(6) { top: 73%; left: 62%; background-color: #889790; }
+
+.background_dot:nth-child(7) { top: 93%; left: 15%; background-color: #5d5dad; }
+
+.background_dot:nth-child(8) { top: 93%; left: 89%; background-color: #682bd3; }
+
+.background_dot:nth-child(9) { top: 83%; left: 21%; background-color: #2da6d6; }
+
+.background_dot:nth-child(10) { top: 79%; left: 17%; background-color: #7a57a3; }
+
+.background_dot:nth-child(11) { top: 85%; left: 82%; background-color: #b469b4; }
+
+.background_dot:nth-child(12) { top: 8%; left: 15%; background-color: #1ac365; }
+
+.background_dot:nth-child(13) { top: 30%; left: 8%; background-color: #3fb317; }
+
+.background_dot:nth-child(14) { top: 47%; left: 27%; background-color: #514d71; }
+
+.background_dot:nth-child(15) { top: 31%; left: 81%; background-color: #d16016; }
+
+.background_dot:nth-child(16) { top: 28%; left: 62%; background-color: #4492ab; }
+
+.background_dot:nth-child(17) { top: 93%; left: 27%; background-color: #c6fbec; }
+
+.background_dot:nth-child(18) { top: 95%; left: 40%; background-color: #05cd2f; }
+
+.background_dot:nth-child(19) { top: 64%; left: 50%; background-color: #6ebb74; }
+
+.background_dot:nth-child(20) { top: 88%; left: 20%; background-color: #db6d1d; }
+
+.background_dot:nth-child(21) { top: 64%; left: 95%; background-color: #70c8b3; }
+
+.background_dot:nth-child(22) { top: 46%; left: 42%; background-color: #94ecca; }
+
+.background_dot:nth-child(23) { top: 74%; left: 21%; background-color: #b10b28; }
+
+.background_dot:nth-child(24) { top: 9%; left: 88%; background-color: #9e4a85; }
+
+.background_dot:nth-child(25) { top: 81%; left: 14%; background-color: #a482f3; }
+
+.background_dot:nth-child(26) { top: 15%; left: 87%; background-color: #206cc4; }
+
+.background_dot:nth-child(27) { top: 41%; left: 64%; background-color: #067380; }
+
+.background_dot:nth-child(28) { top: 80%; left: 34%; background-color: #29bf28; }
+
+.background_dot:nth-child(29) { top: 87%; left: 54%; background-color: #ab670e; }
+
+.background_dot:nth-child(30) { top: 61%; left: 18%; background-color: #4d5e3b; }
+
+.background_dot:nth-child(31) { top: 9%; left: 17%; background-color: #07c72a; }
+
+.background_dot:nth-child(32) { top: 81%; left: 86%; background-color: #79ed66; }
+
+.background_dot:nth-child(33) { top: 75%; left: 74%; background-color: #dbf879; }
+
+.background_dot:nth-child(34) { top: 47%; left: 28%; background-color: #e4d544; }
+
+.background_dot:nth-child(35) { top: 58%; left: 95%; background-color: #f77b91; }
+
+.background_dot:nth-child(36) { top: 84%; left: 82%; background-color: #bac758; }
+
+.background_dot:nth-child(37) { top: 8%; left: 44%; background-color: #9a5ae4; }
+
+.background_dot:nth-child(38) { top: 55%; left: 57%; background-color: #d60670; }
+
+.background_dot:nth-child(39) { top: 55%; left: 91%; background-color: #2ec165; }
+
+.background_dot:nth-child(40) { top: 17%; left: 36%; background-color: #ead440; }
+
+.background_dot:nth-child(41) { top: 27%; left: 86%; background-color: #22cab8; }
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+
+ * { -webkit-text-size-adjust: none; } }
