@@ -24,12 +24,6 @@ html { box-sizing: border-box; }
 
 *, *:before, *:after { box-sizing: inherit; }
 
-@font-face { font-family: "svgfont"; src: url("../fonts/svgfont.eot"); src: url("../fonts/svgfont.eot?#iefix") format("eot"), url("../fonts/svgfont.woff2") format("woff2"), url("../fonts/svgfont.woff") format("woff"), url("../fonts/svgfont.ttf") format("truetype"); font-weight: normal; font-style: normal; }
-
-.icon, [class^="icon-"], [class*=" icon-"] { font-family: "svgfont"; font-style: normal; font-weight: normal; text-rendering: auto; speak: none; line-height: 1; vertical-align: middle; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
-
-.icon, [class^="icon-"], [class*=" icon-"] { display: inline-block; }
-
 body { font-family: Arial, sans-serif; font-size: 16px; line-height: 1.25; min-width: 320px; min-height: 320px; }
 
 .clearfix { *zoom: 1; }
@@ -42,93 +36,106 @@ a, a:before, .button, button, button:before, input[type="button"], input[type="s
 
 .hide { display: none !important; }
 
+@keyframes wave { 0% {
+    transform: rotateZ(0deg) translate3d(0, 10%, 0) rotateZ(0deg); }
+  100% {
+    transform: rotateZ(360deg) translate3d(0, 10%, 0) rotateZ(-360deg); } }
+
 .background { height: 100%; overflow: hidden; position: relative; perspective: 100vw; }
 
 .background_image { position: absolute; width: 130%; height: 127%; margin-left: -15%; margin-top: -8%; left: 0; top: 0; bottom: 0; background: #fff url(../img/background-image.jpg) no-repeat; transition: transform .2s ease; background-size: cover; will-change: transform; }
 
+.background_image img { opacity: .7; position: absolute; }
+
+.background_image-smoke-cloud1 { animation: wave 7s 0.1s infinite linear; display: block; right: 40%; bottom: 0; }
+
+.background_image-smoke-cloud2 { left: -14%; bottom: -6%; animation: wave 8s 0.1s infinite linear; }
+
+.background_image-smoke-cloud3 { right: -4%; bottom: -17%; animation: wave 9s 0.1s infinite linear; }
+
 .background_dot { position: absolute; opacity: .7; z-index: 2; width: 50px; height: 50px; border-radius: 50%; margin-left: -25px; margin-top: -25px; box-shadow: inset 0 0 15px #333; transition: transform .2s ease; will-change: transform; }
 
-.background_dot:nth-child(1) { top: 22%; left: 24%; background-color: #88a513; }
+.background_dot:nth-child(1) { top: 78%; left: 78%; background-color: #3327f8; }
 
-.background_dot:nth-child(2) { top: 61%; left: 74%; background-color: #3f829a; }
+.background_dot:nth-child(2) { top: 52%; left: 80%; background-color: #dc0760; }
 
-.background_dot:nth-child(3) { top: 22%; left: 40%; background-color: #fea067; }
+.background_dot:nth-child(3) { top: 19%; left: 39%; background-color: #1bc033; }
 
-.background_dot:nth-child(4) { top: 31%; left: 29%; background-color: #54275e; }
+.background_dot:nth-child(4) { top: 36%; left: 57%; background-color: #dfaf84; }
 
-.background_dot:nth-child(5) { top: 72%; left: 52%; background-color: #0c3a9e; }
+.background_dot:nth-child(5) { top: 42%; left: 65%; background-color: #94988e; }
 
-.background_dot:nth-child(6) { top: 33%; left: 13%; background-color: #5be95a; }
+.background_dot:nth-child(6) { top: 64%; left: 33%; background-color: #d4422b; }
 
-.background_dot:nth-child(7) { top: 20%; left: 76%; background-color: #eff15c; }
+.background_dot:nth-child(7) { top: 89%; left: 79%; background-color: #43ec8e; }
 
-.background_dot:nth-child(8) { top: 27%; left: 87%; background-color: #fca307; }
+.background_dot:nth-child(8) { top: 52%; left: 16%; background-color: #5effa4; }
 
-.background_dot:nth-child(9) { top: 74%; left: 16%; background-color: #8ab5d2; }
+.background_dot:nth-child(9) { top: 71%; left: 15%; background-color: #5adc54; }
 
-.background_dot:nth-child(10) { top: 40%; left: 83%; background-color: #8d0807; }
+.background_dot:nth-child(10) { top: 24%; left: 13%; background-color: #7720a5; }
 
-.background_dot:nth-child(11) { top: 27%; left: 59%; background-color: #5a7508; }
+.background_dot:nth-child(11) { top: 48%; left: 84%; background-color: #7195b2; }
 
-.background_dot:nth-child(12) { top: 19%; left: 20%; background-color: #429c3c; }
+.background_dot:nth-child(12) { top: 25%; left: 7%; background-color: #d37ede; }
 
-.background_dot:nth-child(13) { top: 92%; left: 75%; background-color: #269fb2; }
+.background_dot:nth-child(13) { top: 72%; left: 37%; background-color: #78583e; }
 
-.background_dot:nth-child(14) { top: 37%; left: 93%; background-color: #d60886; }
+.background_dot:nth-child(14) { top: 52%; left: 34%; background-color: #134d1c; }
 
-.background_dot:nth-child(15) { top: 93%; left: 75%; background-color: #7ae2b0; }
+.background_dot:nth-child(15) { top: 94%; left: 31%; background-color: #ef8e0b; }
 
-.background_dot:nth-child(16) { top: 82%; left: 51%; background-color: #f056c7; }
+.background_dot:nth-child(16) { top: 62%; left: 74%; background-color: #52506a; }
 
-.background_dot:nth-child(17) { top: 79%; left: 86%; background-color: #77994b; }
+.background_dot:nth-child(17) { top: 64%; left: 61%; background-color: #c075a3; }
 
-.background_dot:nth-child(18) { top: 62%; left: 84%; background-color: #955a9f; }
+.background_dot:nth-child(18) { top: 6%; left: 78%; background-color: #ee88bf; }
 
-.background_dot:nth-child(19) { top: 26%; left: 39%; background-color: #86ba25; }
+.background_dot:nth-child(19) { top: 90%; left: 8%; background-color: #1a8a41; }
 
-.background_dot:nth-child(20) { top: 70%; left: 31%; background-color: #180024; }
+.background_dot:nth-child(20) { top: 92%; left: 51%; background-color: #be3b56; }
 
-.background_dot:nth-child(21) { top: 64%; left: 21%; background-color: #4a16e5; }
+.background_dot:nth-child(21) { top: 79%; left: 18%; background-color: #9c43fb; }
 
-.background_dot:nth-child(22) { top: 90%; left: 60%; background-color: #34f080; }
+.background_dot:nth-child(22) { top: 21%; left: 17%; background-color: #cabd54; }
 
-.background_dot:nth-child(23) { top: 53%; left: 46%; background-color: #71e03f; }
+.background_dot:nth-child(23) { top: 65%; left: 95%; background-color: #b5759d; }
 
-.background_dot:nth-child(24) { top: 37%; left: 16%; background-color: #3e7322; }
+.background_dot:nth-child(24) { top: 51%; left: 87%; background-color: #7b6d4d; }
 
-.background_dot:nth-child(25) { top: 74%; left: 76%; background-color: #4ff0c9; }
+.background_dot:nth-child(25) { top: 49%; left: 86%; background-color: #42fab2; }
 
-.background_dot:nth-child(26) { top: 90%; left: 82%; background-color: #bb8648; }
+.background_dot:nth-child(26) { top: 48%; left: 36%; background-color: #d3f14b; }
 
-.background_dot:nth-child(27) { top: 39%; left: 82%; background-color: #a754d7; }
+.background_dot:nth-child(27) { top: 46%; left: 44%; background-color: #a55162; }
 
-.background_dot:nth-child(28) { top: 63%; left: 89%; background-color: #8523f4; }
+.background_dot:nth-child(28) { top: 87%; left: 35%; background-color: #a0b877; }
 
-.background_dot:nth-child(29) { top: 77%; left: 6%; background-color: #cee71b; }
+.background_dot:nth-child(29) { top: 48%; left: 71%; background-color: #f0fd3b; }
 
-.background_dot:nth-child(30) { top: 82%; left: 14%; background-color: #674bb5; }
+.background_dot:nth-child(30) { top: 8%; left: 58%; background-color: #092bf5; }
 
-.background_dot:nth-child(31) { top: 43%; left: 13%; background-color: #353f4b; }
+.background_dot:nth-child(31) { top: 30%; left: 73%; background-color: #bd68ff; }
 
-.background_dot:nth-child(32) { top: 64%; left: 69%; background-color: #f6620d; }
+.background_dot:nth-child(32) { top: 66%; left: 22%; background-color: #2596c0; }
 
-.background_dot:nth-child(33) { top: 59%; left: 64%; background-color: #2018b6; }
+.background_dot:nth-child(33) { top: 84%; left: 27%; background-color: #9499f0; }
 
-.background_dot:nth-child(34) { top: 25%; left: 84%; background-color: #562e77; }
+.background_dot:nth-child(34) { top: 34%; left: 10%; background-color: #9df72f; }
 
-.background_dot:nth-child(35) { top: 77%; left: 48%; background-color: #ad9d35; }
+.background_dot:nth-child(35) { top: 43%; left: 26%; background-color: #3e081d; }
 
-.background_dot:nth-child(36) { top: 54%; left: 54%; background-color: #d2821d; }
+.background_dot:nth-child(36) { top: 53%; left: 87%; background-color: #967dcb; }
 
-.background_dot:nth-child(37) { top: 26%; left: 33%; background-color: #aa9470; }
+.background_dot:nth-child(37) { top: 32%; left: 55%; background-color: #c3d7ef; }
 
-.background_dot:nth-child(38) { top: 92%; left: 80%; background-color: #37e50c; }
+.background_dot:nth-child(38) { top: 22%; left: 38%; background-color: #2a7942; }
 
-.background_dot:nth-child(39) { top: 82%; left: 8%; background-color: #04225a; }
+.background_dot:nth-child(39) { top: 31%; left: 34%; background-color: #d816f8; }
 
-.background_dot:nth-child(40) { top: 19%; left: 40%; background-color: #19a4b5; }
+.background_dot:nth-child(40) { top: 55%; left: 85%; background-color: #002e68; }
 
-.background_dot:nth-child(41) { top: 41%; left: 71%; background-color: #936c36; }
+.background_dot:nth-child(41) { top: 59%; left: 15%; background-color: #0f704f; }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
 
